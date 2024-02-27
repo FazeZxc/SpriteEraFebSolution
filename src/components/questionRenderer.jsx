@@ -12,7 +12,7 @@ export function QuestionRenderer() {
         <BrowserRouter>
           <Routes>
             <Route
-              path="/page1"
+              path="/"
               element={<Landing content={questions}></Landing>}
             ></Route>
             <Route
